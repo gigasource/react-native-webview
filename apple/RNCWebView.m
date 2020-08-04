@@ -353,7 +353,7 @@ static NSDictionary* customCertificatesForHost;
         [keyboardTimer invalidate];
     }
     if (_webView != nil) {
-        [_webView endEditing:YES]
+        [_webView endEditing:YES];
     }
 }
 -(void)keyboardDisplacementFix
